@@ -1,0 +1,16 @@
+// ANTON-FABIAN PATRAȘ
+// 324CB
+// DECEMBRIE 2019
+
+Nu exista comentarii in cod pe langa cele necesare javadocului. Functiile au nume sugestive.
+
+Au existat dificultati la implementarea design pattern-urilor. Sortate crescator dupa dificultatea implementarii sunt: Singleton, Factory, Strategy, Visiter, Observer.
+Singleton a fost folosit in clasa Parser care se ocupa cu I/O si cu interpretarea. Factory a fost folosit la echipe, Strategy la calcularea scorului fiecarei echipe, Visiter la accesarea scorului fiecarei echipe, Observer la updatarea echipelor cu privinta la clasament dupa fiecare meci.
+
+Observer sa spunem ca inteleg de ce a fost ales de implementat, updatam fiecare echipa de locul ei in clasament dupa fiecare meci, dar Visiter n-avea niciun rost. A fost implementat ca sa inlocuiasca o metoda si anume getPoints.
+
+La obserever clasa subiect e Leaderboard si observatorii sunt Team, n-am creat interfete pe care sa le implementez doar cu o clasa, n-avea rost, in rest nu mai am nimic de explicat in cod, se poate citi. Inputul fiind sterilizat n-am verificat de niciun null, caz urat, etc si asta se poate vedea in cod.
+
+Mai bine era Visiter ca bonus, dar sa fi avut si el un rost.
+
+Feedback: Se putea si mai rau. Adica pe langa implementare design pattern-urilor sa fi fost si cerinta grea in sine, dar stiu ca tema era in mod special pentru design pattern-uri.
